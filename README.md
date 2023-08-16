@@ -4,6 +4,8 @@ This is a space for sharing info with external GDAL contribs
 
 ## Requirements
 
+### Tools
+
 ```
 # move to tmp dir
 cd /tmp/
@@ -37,6 +39,14 @@ chmod u+x k9s
 ## move the bin in your path
 mv k9s ~/.local/bin/k9s
 ```
+### Access
+
+```
+az login
+az account list
+az account set --subscription <...>
+az aks get-credentials --resource-group gs-gdal-tests --name gs-gdal-tests --file ~/.kube/gs_gdal_cluster
+```
 
 
 ### Usefule tools
@@ -60,6 +70,7 @@ image for debuging
 ```
 https://github.com/camptocamp/docker-azure-debug-helper
 ```
+
 
 ## Azure Cluster Hands-on
 
