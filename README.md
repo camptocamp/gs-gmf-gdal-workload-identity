@@ -111,5 +111,7 @@ spec:
 
 ### Storage
 
+```
 url = https://gsgdaltests.blob.core.windows.net/
 storage_name = test
+```
