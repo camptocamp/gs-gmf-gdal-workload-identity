@@ -49,7 +49,7 @@ az aks get-credentials --resource-group gs-gdal-tests --name gs-gdal-tests --fil
 ```
 
 
-### Usefule tools
+### Useful commands
 
 copy files into pod
 ```
@@ -66,7 +66,10 @@ login into pod
 kubectl exec mypod -it -- bash
 ```
 
-image for debuging
+## Building your own image for debug
+
+see
+
 ```
 https://github.com/camptocamp/docker-azure-debug-helper
 ```
